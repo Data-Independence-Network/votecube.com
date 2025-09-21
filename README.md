@@ -23,3 +23,7 @@ The card  interface can be operated with in-armor finger presses and AR gestures
 In the final NLNM simulation target of participation between military units the morale officer will monitor and report the NLNM goal objectives, the commanding officer will be in charge of the tactical objective, while the second in command will handle inputting the physical state of the troops, further simplifying the input interfaces (the squad second in command will input significant events via the [Urarun](https://github.com/past-the-war-earth/Urarun) interface, referencing the squad level tasks via the [Hans the Organizator](https://github.com/past-the-war-earth/Hans_the_Organizator) selection interface).
 
 Thus, the Votecube project found it's first clear and necessary use in [NLNM simulations](https://github.com/Past-The-War-Earth/NLNM-combat-simulation/issues/1).
+
+## The Golden Dream
+
+The Golden Dream of Votecube is for a child to ask a question (in the simple 3 binary factor format) and recieve an answer from the entire world (suplemented by pre-recorded, alike poll voting outcomes) within 5 minutes.
