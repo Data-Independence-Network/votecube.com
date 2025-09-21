@@ -26,4 +26,4 @@ Thus, the Votecube project found it's first clear and necessary use in [NLNM sim
 
 ## The Golden Dream
 
-The Golden Dream of Votecube is for a child to ask a question (in the simple 3 binary factor format) and recieve an answer from the entire world (suplemented by pre-recorded, alike poll voting outcomes) within 5 minutes.
+The Golden Dream of Votecube is for a child to ask a question (in the simple 3 binary factor format) and recieve an answer from the entire world (supplemented by pre-recorded, alike poll voting outcomes) within 5 minutes.
