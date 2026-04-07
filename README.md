@@ -6,7 +6,7 @@ Since a cube has 6 sides, two on each dimension the idea of a decision making in
 
 After building a prototype and brainstorming it's usability with a friend a simpler input interface was built with 3 vertically arranged, flippable cards that can be dragged up or down to change the importance of the factors represented by the them.  Additionally a reporting bar chart interface allowing for bars to the left or right of the y axis was developed.
 
-Subsequently, upon involving another friend (while having yet another friend on the phone) a decision was made to move away from a fun and easy poll collection platform to a [social support network](https://github.com/past-the-war-earth/sapoto.net) that would allow people to vote on the ideas suggested to fix a posted issue.
+Subsequently, upon involving another friend (while having yet another friend on the phone) a decision was made to move away from a fun and easy poll collection platform to a [social support network](https://github.com/data-independence-network/sapoto.net) that would allow people to vote on the ideas suggested to fix a posted issue.
 
 Almost immediately after NLNM simulation proposal it was clear that the Votecube widget is needed there.  It will allow to report the situation for a unit based on 3 preset factors (which became apparent today):
 
@@ -20,7 +20,7 @@ Favorite colors of wifes of the initial group of brainstormers determined the ab
 
 The card  interface can be operated with in-armor finger presses and AR gestures.  The results can be aggregated and reported up the chain of command to an updating bar chart (in the helmet overhead display), with drill down interface to lower-level unit statuses. 
 
-In the final NLNM simulation target of participation between military units the morale officer will monitor and report the NLNM goal objectives, the commanding officer will be in charge of the tactical objective, while the second in command will handle inputting the physical state of the troops, further simplifying the input interfaces (the squad second in command will input significant events via the [Urarun](https://github.com/past-the-war-earth/Urarun) interface, referencing the squad level tasks via the [Hans the Organizator](https://github.com/past-the-war-earth/Hans_the_Organizator) selection interface).
+In the final NLNM simulation target of participation between military units the morale officer will monitor and report the NLNM goal objectives, the commanding officer will be in charge of the tactical objective, while the second in command will handle inputting the physical state of the troops, further simplifying the input interfaces (the squad second in command will input significant events via the [Urarun](https://github.com/data-independence-network/Urarun) interface, referencing the squad level tasks via the [Hans the Organizator](https://github.com/data-independence-network/Hans_the_Organizator) selection interface).
 
 Thus, the Votecube project found it's first clear and necessary use in [NLNM simulations](https://github.com/Past-The-War-Earth/NLNM-combat-simulation/issues/1).
 
