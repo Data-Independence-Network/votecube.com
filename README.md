@@ -4,9 +4,13 @@ The resolve to create Votecube arrived immediately after a very brief early morn
 
 Since a cube has 6 sides, two on each dimension the idea of a decision making interface was a natural fit. The total surface area of the 2-D projection of the cube was taken as 100 basis points. And rotating the cube can generate any combination of relative weights of 3 most important to a decision factors (with either For or Against side for each factor being visible).
 
-After building a prototype and brainstorming it's usability with a friend a simpler input interface was built with 3 vertically arranged, flippable cards that can be dragged up or down to change the importance of the factors represented by the them.  Additionally a reporting bar chart interface allowing for bars to the left or right of the y axis was developed.
+My initial idea was clear - this is a virtual democracy tool.  The first friend I proposed the solution to immediately corrected it to be a polling platform.  As I understand now, that is exactly what is needed to make existing governance systems more effective once the (hypothetically) naturally developing focus on society will drive the need for accurate measurement of what people think. 
 
-Subsequently, upon involving another friend (while having yet another friend on the phone) a decision was made to move away from a fun and easy poll collection platform to a [social support network](https://github.com/data-independence-network/sapoto.net) that would allow people to vote on the ideas suggested to fix a posted issue.
+After building a prototype and brainstorming it's usability with my friend a simpler input interface was built with 3 vertically arranged, flippable cards that can be dragged up or down to change the importance of the factors represented by the them.  Additionally a reporting bar chart interface allowing for bars to the left or right of the y axis was developed.
+
+Subsequently, upon involving another friend (while having yet another friend on the phone) a decision was made to move away from a fun and easy poll collection platform to a [social support network](https://github.com/data-independence-network/sapoto.net) that would allow people to vote on the ideas suggested to fix a posted issue (utilizing a reputation system to, as I understand it now, prove their expertize on the issue). 
+
+## Initial use in NLNM Simulation
 
 Almost immediately after NLNM simulation proposal it was clear that the Votecube widget is needed there.  It will allow to report the situation for a unit based on 3 preset factors (which became apparent today):
 
@@ -18,7 +22,7 @@ Purple - the physical state of the troops
 
 Favorite colors of wifes of the initial group of brainstormers determined the above palette during prototyping.
 
-The card  interface can be operated with in-armor finger presses and AR gestures.  The results can be aggregated and reported up the chain of command to an updating bar chart (in the helmet overhead display), with drill down interface to lower-level unit statuses. 
+The card  interface can be operated with in-armor finger presses and AR gestures.  The results can be aggregated and reported up the chain of command to an updating bar chart (in the helmet overhead display), with drill down interface to lower-level unit statuses.
 
 In the final NLNM simulation target of participation between military units the morale officer will monitor and report the NLNM goal objectives, the commanding officer will be in charge of the tactical objective, while the second in command will handle inputting the physical state of the troops, further simplifying the input interfaces (the squad second in command will input significant events via the [Urarun](https://github.com/data-independence-network/Urarun) interface, referencing the squad level tasks via the [Hans the Organizator](https://github.com/data-independence-network/Hans_the_Organizator) selection interface).
 
