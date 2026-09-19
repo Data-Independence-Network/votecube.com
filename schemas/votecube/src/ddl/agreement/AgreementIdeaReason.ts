@@ -8,17 +8,19 @@ import {
 import { IdeaReason } from "../reason/IdeaReason";
 import { Agreement } from "./Agreement";
 
+
+export type AgreementIdeaReason_Share = number; // i8 : 0 - 100
 @Entity()
 @Table({ name: 'AGREEMENT_IDEA_REASONS' })
 export class AgreementIdeaReason
     extends AirEntity {
 
-    share: number // 0 - 100
+    share!: AgreementIdeaReason_Share
 
     @ManyToOne()
-    agreement: Agreement
+    agreement!: Agreement
 
     @ManyToOne()
-    ideaReason: IdeaReason
+    ideaReason!: IdeaReason
 
 }

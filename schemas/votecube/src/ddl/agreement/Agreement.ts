@@ -10,13 +10,13 @@ export class Agreement
     extends AirEntity {
 
     @Column({ name: "SHARE_TOTAL" })
-    shareTotal: number
+    shareTotal!: number
 
     @ManyToOne({ optional: true })
-    situationIdea: SituationIdea
+    situationIdea!: SituationIdea
 
     @ManyToOne()
-    idea: Idea
+    idea!: Idea
 
     @OneToMany({ mappedBy: 'agreement' })
     agreementIdeaReasons: AgreementIdeaReason[] = []

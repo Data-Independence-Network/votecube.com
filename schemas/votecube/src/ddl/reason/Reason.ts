@@ -16,10 +16,10 @@ export class Reason
 	extends AirEntity {
 
 	@ManyToOne()
-	factor: Factor
+	factor!: Factor
 
 	@ManyToOne()
-	position: Position
+	position!: Position
 
 	@OneToMany({ mappedBy: 'reason' })
 	ideaReasons: IdeaReason[] = []

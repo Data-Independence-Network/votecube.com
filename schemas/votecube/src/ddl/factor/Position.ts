@@ -76,18 +76,18 @@ export class Position
 
 	@Column({ name: 'ACTION', length: 15, nullable: true })
 	@DbString()
-	action: Position_Action
+	action!: Position_Action
 
 	@Column({ name: 'OBJECT', length: 12, nullable: true })
 	@DbString()
-	object: Position_Object
+	object!: Position_Object
 
 	@Column({ name: 'SUBJECT', length: 12, nullable: true })
 	@DbString()
-	subject: Position_Subject
+	subject!: Position_Subject
 
 	@Column({ name: 'TEXT', length: 120, nullable: false })
-	text: Position_Text
+	text!: Position_Text
 
 	@OneToMany({ mappedBy: 'position' })
 	reasons: Reason[] = []
